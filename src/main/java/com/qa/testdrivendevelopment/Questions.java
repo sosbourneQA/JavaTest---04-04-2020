@@ -208,19 +208,21 @@ public class Questions {
 	 * wordFinder("dog", "cat") → False <br>
 	 * wordFinder("tripping", "gin") → True
 	 */
-	public void wordFinder(String initialWord, String madeString) {
+	public boolean wordFinder(String initialWord, String madeString) {
 
-		int length = initialWord.length();
-		int counter = 0;
+//		int length = initialWord.length();
+//		int counter = 0;
+//
+//		for (int i = 0; i < length; i++) {
+//			String substr = madeString.substring(i, i + 1);
+//			if (initialWord.contains(substr)) {
+//				counter = counter++;
+//			}
+//		}
+//
+//		int counter2 = counter;
 
-		for (int i = 0; i < length; i++) {
-			String substr = madeString.substring(i, i + 1);
-			if (initialWord.contains(substr)) {
-				counter = counter++;
-			}
-		}
-
-		int counter2 = counter;
+		return false;
 
 //		if (counter2 == madeString.length()) {
 //			return true;
